@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="main.css">
+        <title>Customer Registration Form</title>
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" type="text"/>
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input id="lastName" type="text"/>
+                    </div>
+                    <div>
+                        <label for="email">email</label>
+                        <input id="email" type="email"/>
+                    </div>
+                    <div>
+                        <label for="mobile">Mobile</label>
+                        <input id="mobile" type="text"/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Shipping Address</legend>
+                    <div>
+                        <label for="address1">Address</label>
+                        <input id="address1" type="text"/>
+                    </div>
+                    <div>
+                        <label for="address2"></label>
+                        <input id="address2" type="text"/>
+                    </div>
+                    <div>
+                        <label for="address3"></label>
+                        <input id="address3" type="text"/>
+                    </div>                   
+                    <div>
+                        <label for="city">City</label>
+                        <input id="city" type="text"/>
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <select name="country">
+                            <option value="UK">United Kingdom</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="postCode">Post Code</label>
+                        <input id="postCode" type="text"/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Credit Card</legend>
+                    <div>
+                        <label for="cardNo">Card No</label>
+                        <input id="cardNo" type="text"/>
+                    </div>
+                    <div>
+                        <label for="cardSecCode">Security Code</label>
+                        <input id="cardSecCode" type="text"/>
+                    </div>
+                    <div>
+                        <label for="cardHolderName">Card Holder Name</label>
+                        <input id="cardHolderName" type="text"/>
+                    </div>
+                </fieldset>
+                <button>Submit</button>
+                <button>Reset</button>
+            </form>
+        </div>
+    </body>
+</html>
