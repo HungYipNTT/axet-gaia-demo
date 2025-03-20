@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="main.css">
+        <title>Customer Registration Form</title>
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <div>
+                        <label for="customerId">Customer No</label>
+                        <input id="customerId" type="text"/>
+                    </div>
+                    <div>
+                        <label for="customerName">Name</label>
+                        <input id="customerName" type="text"/>
+                    </div>
+                    <div>
+                        <label for="customerEmail">E-Mail</label>
+                        <input id="customerEmail" type="email"/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Order Items</legend>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Ref</th>
+                                <th>Unit Price</th>
+                                <th>Qty</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input id="productDesc"></td>
+                                <td><input id="productRef"></td>
+                                <td><input id="unitPrice"></td>
+                                <td><input id="qty"></td>
+                                <td><input id="itemTotal"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="productDesc"></td>
+                                <td><input id="productRef"></td>
+                                <td><input id="unitPrice"></td>
+                                <td><input id="qty"></td>
+                                <td><input id="itemTotal"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="productDesc"></td>
+                                <td><input id="productRef"></td>
+                                <td><input id="unitPrice"></td>
+                                <td><input id="qty"></td>
+                                <td><input id="itemTotal"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="productDesc"></td>
+                                <td><input id="productRef"></td>
+                                <td><input id="unitPrice"></td>
+                                <td><input id="qty"></td>
+                                <td><input id="itemTotal"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="productDesc"></td>
+                                <td><input id="productRef"></td>
+                                <td><input id="unitPrice"></td>
+                                <td><input id="qty"></td>
+                                <td><input id="itemTotal"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Total and Payment</legend>
+                    <div>
+                        <label for="paymentRef">Payment Ref</label>
+                        <input id="paymentRef" type="text"/>
+                    </div>
+                    <div>
+                        <label for="cardNo">Credit Card No</label>
+                        <input id="cardNo" type="text"/>
+                    </div>
+                    <div>
+                        <label for="orderTotal">Total Amount</label>
+                        <input id="orderTotal" type="email"/>
+                    </div>                                     
+                </fieldset>
+                <button>Submit</button>
+                <button>Reset</button>
+            </form>
+        </div>
+    </body>
+</html>
