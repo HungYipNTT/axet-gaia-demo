@@ -1,3 +1,4 @@
+
 body {
     padding: 20px;
     width: 650px;
@@ -13,13 +14,19 @@ form label {
     width: 150px;
 }
 
-form input {
+div>input {
     padding: 5px;
     margin-bottom: 2px;
     width: 400px;
 }
 
-form select {
+div>select {
+    padding: 5px;
+    margin-bottom: 2px;
+    width: 200px;
+}
+
+td>input {
     padding: 5px;
     margin-bottom: 2px;
     width: 200px;
