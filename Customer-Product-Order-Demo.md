@@ -27,9 +27,13 @@ The design standard from client:
 
 Here is your tasks:
 - Based on the given forms, create the JPA entity classes
+- Create a CRUD JPA repository with the search function using native SQL 
 - The order form has a table of a list of order items
 - You only need to add the form fields as the entity properties, don't add extract property. If possible, please use the field names from HTML from as the property name
-- Product should be an independent entity, you make up some general properties for sport fashion
+- Product should be an independent entity, you could make up some general properties based on the following reference
+    - https://www.sportsdirect.com/adidas-essentials-fleece-3-stripes-full-zip-hoodie-mens-533033#colcode=53303322
+    - https://www.sportsdirect.com/under-armour-surge-4-running-shoes-mens-128722#colcode=12872240
+    - https://www.sportsdirect.com/karrimor-urban-22l-backpack-791068#colcode=79106803
 - A new requirement is an order might have discount for seasonal sales
 
 Once you defined the Entity classes:
