@@ -18,3 +18,9 @@ form input {
     margin-bottom: 2px;
     width: 400px;
 }
+
+form select {
+    padding: 5px;
+    margin-bottom: 2px;
+    width: 200px;
+}
