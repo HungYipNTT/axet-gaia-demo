@@ -27,9 +27,9 @@ The design standard from client:
 
 Here is your tasks:
 - Based on the given forms, create the JPA entity classes
+- The order form has a table of a list of order items
 - You only need to add the form fields as the entity properties, don't add extract property. If possible, please use the field names from HTML from as the property name
 - Product should be an independent entity, you make up some general properties for sport fashion
-- An order could purchase many products
 - A new requirement is an order might have discount for seasonal sales
 
 Once you defined the Entity classes:
