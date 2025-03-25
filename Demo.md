@@ -31,11 +31,12 @@
 
 # Furthermore from Gaia:
 ## Design:
-- Automate the analysis scraping client's Confluence, JIRA, Sharepoint, and documents with Agent or RAG
+- Automate the analysis by scraping client's Confluence, JIRA, Sharepoint, and documents with Agent or indexing it with RAG
 ## Development:
-- Extend the code generation to front-end, devOps... 
+- Extend the code generation to front-end, devOps pipeline... 
 ## Testing:
-- Generate test cases
+- Generate test cases (JUnit, Cucumber...)
+- Generate mock results for WireMock integration 
 - Code review
 ## Deployment:
 - Prepare the release notes by summarizing JIRA, or other ticketing system
