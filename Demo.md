@@ -13,7 +13,7 @@
 - Create the CRUD repository using Native SQL for search
 - Create the Postgres DB tables for the entity classes
 ## Testing:
-- Generate volume of testing data
+- Generate volume of testing data with difference use cases
 
 # Client's best practice:
 - All JPA entity classes should extend from an abstract audit classes, which have the audit fields:
