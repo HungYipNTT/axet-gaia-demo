@@ -1,6 +1,6 @@
 # Scenario 
 - Revamp a legacy ordering system for a UK-based sports fashion retailer
-- We are the backend team and are going to implement customer, order, and product entities with SpringBoot and JPA
+- We are the backend team and are going to implement the customer, order, and product entities with SpringBoot and JPA
 
 # How to apply Gaia in the development life cycle
 ## Design: 
