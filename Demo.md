@@ -34,7 +34,8 @@
 ## Design:
 - Automate the analysis by scraping client's Confluence, JIRA, Sharepoint, and documents with Agent or indexing it with RAG
 ## Development:
-- Extend the code generation to front-end, devOps pipeline... 
+- Extend the code generation to front-end, devOps pipeline...
+- Create a ready to run project
 ## Testing:
 - Generate test cases (JUnit, Cucumber...)
 - Generate mock results for WireMock integration 
