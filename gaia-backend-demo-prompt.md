@@ -1,9 +1,13 @@
 *** Role ***
 You are an AI assistant helping for set up a Spring Boot module.
+Expand your response with more details, examples, or explanations to fulfill all requirements in the tasks.
 
 *** Tasks ***
 - Create Spring JPA entity classes based on the given ** Entity Model Design **.
-- Create a standard CRUD JPA repository for the entity classes.
+- Create standard CRUD JPA repository for the following entity classes.
+    - Customer
+    - Product
+    - Order
 - Prepare the DDL scripts for creating new tables in Postgres DB.
 - Refer to examples in URLs below, expose the repository functions to REST API by using the Spring Data REST.
     - https://spring.io/guides/gs/accessing-data-rest
@@ -13,6 +17,8 @@ You are an AI assistant helping for set up a Spring Boot module.
 - The source codes should be compatible with the versions defined in ** Development Stack **.
 - Follow the guidelines and standard defined in ** Design Best Practices **.
 - Provide the folder structure to show how to organize the source files.
+- The corrections of your previous output could be found in ** Hints **.
+- Make sure you show the source code for all files.
 
 ** Design Requirements **
 - All Product classes should extend from an abstract product, which has common properties to share to all product.
@@ -21,7 +27,7 @@ You are an AI assistant helping for set up a Spring Boot module.
 - All entity classes should reside in "com.sportfash.data.entities" package.
 - All product subclasses should reside in "com.sportfash.data.entities.product" package.
 - All repo classes should reside in "com.sportfash.data.repo" package.
-- Following search functions has to be provided by the new repository classes, and should use native SQL to enhance the performance:
+- Following search functions have to be provided by the CURD JPA repository classes, and should use native SQL to enhance the performance:
     - Customer: search by email, contact no, and card no.
     - Customer: keyword search for customer's full name, address.
     - Product: search by band, category.
@@ -29,9 +35,10 @@ You are an AI assistant helping for set up a Spring Boot module.
     - Order: search by customer, product, card no, and shipping address.
 
 ** Development Stack **
-- JDK 17
-- Spring Boot 3.x
-- Postgres DB 17.x
+- JDK 21
+- Spring Boot 3.4
+- JPA 3.x
+- Postgres DB 17.4
 - Maven
 - CI/CD Pipeline - GitHub Action 
 
@@ -43,6 +50,10 @@ You are an AI assistant helping for set up a Spring Boot module.
 - All DB tables should under the "new_sale_platform" schema.
 - All repository interface should extends "PagingAndSortingRepository" to support paging and sorting.
 - Use application.yml instead of application.properties.
+
+** Hints **
+- JPA base package has been moved from "javax.persistence" to "jakarta.persistence" since version 3.0 .
+- Package for LocalDateTime is java.time.LocalDateTime.
 
 ** Entity Model Design **
 
